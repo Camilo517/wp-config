@@ -16,10 +16,10 @@ define( 'COMPRESS_SCRIPTS', true ); //Comprimir scripts
 define( 'CONCATENATE_SCRIPTS', true ); //Concatenar scripts
 define( 'ENFORCE_GZIP', true ); //Forzar gzip
 /* Editor de archivos */
-define('DISALLOW_FILE_EDIT', true); // No se permite editar codigo desde wp-admin
+define('DISALLOW_FILE_EDIT', true); //No se permite editar codigo desde wp-admin
 /* Actualizaciones */
 define( 'AUTOMATIC_UPDATER_DISABLED', true ); //Deshabilitar actualizaciones mayores
-define( 'WP_AUTO_UPDATE_CORE', 'minor' ); // Activar actualizaciones menores
+define( 'WP_AUTO_UPDATE_CORE', 'minor' ); //Activar actualizaciones menores
 /* HTTPS */
 define('FORCE_SSL_LOGIN', true);
 define('FORCE_SSL_ADMIN', true);

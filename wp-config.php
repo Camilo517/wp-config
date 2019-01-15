@@ -1,19 +1,14 @@
 <?php
 /* Tablas (Pon aqui un texto o algo diferente) */
 $table_prefix = 'E31n600u8_';
-/* Cambiar a TRUE para hacer debug */
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'WP_DEBUG_LOG', false );
-define( 'SCRIPT_DEBUG', false );
-define( 'SAVEQUERIES', false );
-define('WP_DEBUG', false);
+
 /* Desactivar XML-RPC para prevenir ataques DDos */
 add_filter('xmlrpc_enabled', '__return_false');
 /* 5 revisiones como maximo por entrada o pagina */
 define('WP_POST_REVISIONS', 5 );
 /* Acceso FTP */
 define( 'FS_METHOD', 'direct' ); //Acceso FTP directo
-define( 'FTP_SSL', true ); //Forzar SSL FTP
+
 /* Rendimiento (Nota: En muchas instalaciones puede dar errores / conflictos con otros plugins de cache - minificacion) */
 //define( 'COMPRESS_CSS', true ); //Comprimir css
 //define( 'COMPRESS_SCRIPTS', true ); //Comprimir scripts
